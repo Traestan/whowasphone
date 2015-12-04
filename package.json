@@ -1,0 +1,28 @@
+{
+  "name": "whowasphone",
+  "version": "1.0.0",
+  "description": "Who Was Phone, a who-called me aggregator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zivc/whowasphone.git"
+  },
+  "author": "Ash Taylor (a@zi.vc)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zivc/whowasphone/issues"
+  },
+  "homepage": "https://github.com/zivc/whowasphone#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "cheerio": "^0.19.0",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "handlebars": "^4.0.5",
+    "q": "^1.4.1",
+    "superagent": "^1.5.0"
+  }
+}
